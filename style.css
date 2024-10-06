@@ -1,0 +1,88 @@
+body {
+    background-color: #f9dcf3;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h1, h2, h3, h4{
+    font-family: serif;
+    color: #333;
+}
+
+h1 {
+    border: 3.5px solid purple;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 236, 248);
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid plum;
+    background-color: cornsilk;
+}
+
+
+ul :hover {
+    background-color: gold;
+    padding: 0.2em;
+    border-radius: 0.2em;
+    transition: 350ms;
+}
+
+iframe {
+    align-items: center;
+    width: 50%;
+    display: block;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    margin:20px;
+}
+
+main img {
+    width: 10%;
+    border-radius: 10%;
+    margin: 2.5%;
+}
+
+body.index {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+body.index img{
+    width: 25%;
+}
+
+body.about-us{
+  display: flex; 
+    flex-direction: column;
+    text-align:center;
+}
+
+body.about-us img{
+    width: 15%;
+}
+
+body.about-us img:hover{
+    transform: scale(2);
+}
+
+footer{
+    background-color: #43268d;
+    color: white;
+    text-align: center;
+    padding: 7%;
+}
+
